@@ -194,12 +194,23 @@ def run_gui():
     status_label = ctk.CTkLabel(app, text="Select a GIF and output folder.", wraplength=500, justify="center")
     status_label.pack(pady=5)
 
-    ctk.CTkLabel(app, text="🛠️ by Notriced | Code by golden.axolotl", font=("Arial", 11), text_color="gray").pack(side="bottom", pady=8)
+    # dont remove :)
+    # shows the contributors of the repo
+
+    def open_contributors():
+        webbrowser.open_new("https://github.com/gaxolotl/g2f/graphs/contributors")
+
+    label = ctk.CTkLabel(
+        app,
+        text="g2f Contributors",
+        font=("Arial", 11, "underline"),
+        text_color="#ADD8E6",
+        cursor="hand2"
+    )
+    label.pack(side="bottom", pady=8)
+    label.bind("<Button-1>", lambda e: open_contributors())
 
     app.mainloop()
 
-
 if __name__ == "__main__":
     run_gui()
-
-#: )
