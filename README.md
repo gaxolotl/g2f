@@ -2,6 +2,8 @@
 
 A Python GUI tool that slices a **square GIF** into a 3x3 grid per frame, exports each tile as individual PNG images, and bundles everything into a ZIP file. Ideal for pixel-art animation, game development, or creative experiments!
 
+![SHOWCASE](https://i.ibb.co/WLJNvfS/Screen-Recording-2025-06-15-230647.gif "Showcase")
+
 ---
 
 ## ✨ Features
