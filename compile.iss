@@ -1,5 +1,5 @@
 #define MyAppName "g2f GIF Splitter"
-#define MyAppVersion "0.4"
+#define MyAppVersion "0.6"
 #define MyAppPublisher "Anomic Forums Community"
 #define MyAppURL "https://github.com/gaxolotl/g2f"
 #define MyAppExeName "main.exe"
